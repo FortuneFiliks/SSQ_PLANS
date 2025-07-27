@@ -1,0 +1,117 @@
+@media(min-width : 600px){
+/*************************************************START*************************************************/
+    *{
+    	padding : 0;
+    	margin : 0;
+    }
+    
+    :root{
+    	--alpha_bg_color :#cce1ff4C;
+    	--alpha_text_color :#223a66;
+    }
+	
+	
+/*****************NAV SECTION***************/
+
+/******************************FIRST SECTION*************************/
+
+    .first_section{
+    	width : 100%;
+    	min-height : 80vh;
+    	background-image : url("../AVIF/flat-lay-corn-with-potatoes-tomatoes.avif");
+    	background-size : cover;
+    	margin-top : -200px;
+    }
+    
+    .first_section_heading{
+    	text-align : left;
+    	font-weight : 700;
+        padding-top : 300px;
+        font-size : 3rem;
+        color : #ffffff;
+    }
+
+/*************************SECOND SECTION*******************************/
+    .second_section{
+    	width : 100%;
+        background-color :#f1f1f1;
+    	min-height : 125vh;
+    }
+    .second_section_content{
+    	width : 100%;
+    	padding-top : 50px;
+    	padding-bottom : 50px;
+    }
+    .second_section_flex{
+    	display : flex;
+        flex-direction : column;
+        background-color : #dfe8fe;
+    	width : 90%;
+    	margin-left : auto;
+    	margin-right : auto;
+    	border-radius : 15px;
+    }
+    .second_section_flex .alpha_flex_item{
+        width : 80%;
+    	margin-left : auto;
+    	margin-right : auto;
+    }
+    .second_section_flex .beta_flex_item{
+    	width : 85%;
+    	margin-left : auto;
+    	margin-right : auto;
+    }
+    .e_book_image{
+    	width : 100%;
+    	border-top-left-radius : 15px;
+    	border-bottom-left-radius : 15px;
+    	border-top-right-radius : 0;
+    	border-bottom-right-radius : 0;			
+    }
+    .second_section_flex .beta_flex_item_content{
+    	padding : 10px;
+    }
+    .food_plan_heading{
+    	font-weight : 600;
+    	padding-bottom : 10px;
+    	color : var(--alpha_text_color);
+		font-size : 1.45rem;
+        text-align : center;
+    }
+    .second_section_flex .beta_flex_item_content p{
+    	font-size : 1rem;
+    }
+    .second_section_flex .beta_flex_item_content .plan_price{
+    	font-weight : 600;
+    	font-size : 1.75rem;
+    	color : var(--alpha_text_color);
+    } 
+    .second_section_flex .beta_flex_item_content ul{
+    	list-style-type : none;
+    }
+    .second_section_flex .beta_flex_item_content ul li{
+    	font-size : 1.1rem;
+    	color : var(--alpha_text_color);
+    }
+    .cart_btn{
+    	width : 60%;
+    	height : 50px;
+    	color : #ffffff;
+    	font-weight : 600;
+    	background : linear-gradient(20deg,#fb5b21,#000133,#fb5b21);	
+    	border : none;
+    	border-radius : 5px;
+    	outline : none;
+    	margin-top : 10px;
+    }
+    
+    .cart_btn:hover{
+    	box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+    }
+
+
+/************************************FOOTER*********************************/
+	
+	 
+/*************************************************END*************************************************/
+}
